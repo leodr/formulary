@@ -19,9 +19,14 @@
 ## Einheitsvektoren
 
 Vektor der Länge 1 in beliebiger Richtung
-$$ \vec{a_E} = \frac{1}{\mid \vec{a} \mid} \cdot \vec{a} $$
 
-$$ \vec{e_1}=\begin{pmatrix}1\\0\end{pmatrix} \vec{e_2}=\begin{pmatrix}0\\1\end{pmatrix} $$
+$$
+ \vec{a_E} = \frac{1}{\mid \vec{a} \mid} \cdot \vec{a}
+$$
+
+$$
+ \vec{e_1}=\begin{pmatrix}1\\0\end{pmatrix} \vec{e_2}=\begin{pmatrix}0\\1\end{pmatrix}
+$$
 
 - maximale Menge linear unabhängiger Vektoren im $\R^n$
 - Basis (Standardbasis für $\vec{e}$) des $\R^n$ / Erzeugendensystem
@@ -30,10 +35,16 @@ $$ \vec{e_1}=\begin{pmatrix}1\\0\end{pmatrix} \vec{e_2}=\begin{pmatrix}0\\1\end{
 ## Lineare Abhängigkeit
 
 Linearkombination:
-$$ \sum_{k=1}^n \lambda_k \cdot \vec{a_k}$$
+
+$$
+ \sum_{k=1}^n \lambda_k \cdot \vec{a_k}
+$$
 
 Linear unabhängig:
-$$ \lambda_1 \vec{a_1} + \lambda_2 \vec{a_2} + ... + \lambda_n \vec{a_n} \textnormal{ nicht nur triviale Lösung}$$
+
+$$
+ \lambda_1 \vec{a_1} + \lambda_2 \vec{a_2} + ... + \lambda_n \vec{a_n} \textnormal{ nicht nur triviale Lösung}
+$$
 
 ## Untervektorräume
 
@@ -50,57 +61,90 @@ Menge aller Linearkombinationen einer Gruppe von Vektoren
 
 Vektor wird erzeugt durch Linearkombination von Basisvektoren
 
-$$ \vec{v} = k_1 \vec{b_1} + ... + k_n \vec{b_n} = \begin{pmatrix}k_1 \\ \vdots \\ k_n \end{pmatrix} $$
+$$
+ \vec{v} = k_1 \vec{b_1} + ... + k_n \vec{b_n} = \begin{pmatrix}k_1 \\ \vdots \\ k_n \end{pmatrix}
+$$
 
 ## Skalarprodukt
 
-$$ \vec{a} \cdot \vec{b} := | \vec{a} | \cdot | \vec{b} | \cdot cos (\alpha)$$
-$$ \vec{a} \cdot \vec{b} = 0 \Leftrightarrow \vec{a} \perp \vec{b} $$
+$$
+ \vec{a} \cdot \vec{b} := | \vec{a} | \cdot | \vec{b} | \cdot cos (\alpha)
+$$
+
+$$
+ \vec{a} \cdot \vec{b} = 0 \Leftrightarrow \vec{a} \perp \vec{b}
+$$
 
 ## Projektion
 
 $\vec{b}$ auf $\vec{a}$ projezieren, ohne $|\vec{b}|$ zu erhalten:
-$$ \vec{b}_{\vec{a}} = |\vec{b}| \cdot cos(\alpha) $$
+
+$$
+ \vec{b}_{\vec{a}} = |\vec{b}| \cdot cos(\alpha)
+$$
 
 ### Skalare Projektion
 
-$$ comp_a(\vec{b}) = \frac{\vec{b} \cdot \vec{a}}{|\vec{a}|} $$
+$$
+ comp_a(\vec{b}) = \frac{\vec{b} \cdot \vec{a}}{|\vec{a}|}
+$$
 
 ### Vektorielle Projektion
 
-$$ \vec{b}_{\vec{a}} = \frac{\vec{b} \cdot \vec{a}}{|\vec{a}|} \cdot \frac{\vec{a}}{|\vec{a}|} $$
+$$
+ \vec{b}_{\vec{a}} = \frac{\vec{b} \cdot \vec{a}}{|\vec{a}|} \cdot \frac{\vec{a}}{|\vec{a}|}
+$$
 
 ## Vektor-/Kreuzprodukt im $\R^3$
 
-$$ \vec{c} = \vec{a} \times \vec{b} \Leftrightarrow \vec{c} \perp \vec{a}, \vec{c} \perp \vec{b}$$
-$$ \vec{a} \times \vec{b} = \begin{pmatrix} a_yb_z - a_zb_y \\ a_zb_x - a_xb_z \\ a_xb_y - a_yb_x \end{pmatrix} $$
+$$
+ \vec{c} = \vec{a} \times \vec{b} \Leftrightarrow \vec{c} \perp \vec{a}, \vec{c} \perp \vec{b}
+$$
+
+$$
+ \vec{a} \times \vec{b} = \begin{pmatrix} a_yb_z - a_zb_y \\ a_zb_x - a_xb_z \\ a_xb_y - a_yb_x \end{pmatrix}
+$$
 
 ## Spatprodukt
 
-$$ S = (\vec{a} \times \vec{b}) \cdot \vec{c} $$
+$$
+ S = (\vec{a} \times \vec{b}) \cdot \vec{c}
+$$
 
 Betrag ist Volumen des durch die 3 Vektoren aufgespannten Spates (Raum)
 $S = 0 \Rightarrow$ Vektoren liegen in einer Ebene
 
 ## Geraden im $\R^3$
 
-$$ g: \vec{x} = \vec{x_0} + \lambda \cdot \vec{a}, \lambda \in \R $$
+$$
+ g: \vec{x} = \vec{x_0} + \lambda \cdot \vec{a}, \lambda \in \R
+$$
 
 ### Punktrichtungsform
 
-$$ g: \vec{x} = \vec{x_0} + \lambda \cdot (\vec{x_1} - \vec{x_0}), \lambda \in \R $$
+$$
+ g: \vec{x} = \vec{x_0} + \lambda \cdot (\vec{x_1} - \vec{x_0}), \lambda \in \R
+$$
 
 ## Ebenen im $\R^3$
 
 ### Punktrichtungsform
 
-$$ E: \vec{x} = \vec{x_0} + \lambda \cdot \vec{e} + \mu \cdot \vec{b}; \lambda, \mu \in \R $$
+$$
+ E: \vec{x} = \vec{x_0} + \lambda \cdot \vec{e} + \mu \cdot \vec{b}; \lambda, \mu \in \R
+$$
 
 ### Parameterfreie Darstellung
 
-$$ E: (\vec{x} - \vec{x_0}) \cdot \vec{n} = 0 $$
+$$
+ E: (\vec{x} - \vec{x_0}) \cdot \vec{n} = 0
+$$
+
 Ausmultipliziert:
-$$ E: Ax + By + Cz = D $$
+
+$$
+ E: Ax + By + Cz = D
+$$
 
 ## Schnittgerade zweier Ebenen
 
@@ -114,4 +158,6 @@ $$ E: Ax + By + Cz = D $$
 
 ## Abstand Punkt-Ebene:
 
-$$ d_p = |\frac{(\vec{x} - \vec{x_0}) \cdot \vec{n}}{|\vec{n}|}| $$
+$$
+ d_p = |\frac{(\vec{x} - \vec{x_0}) \cdot \vec{n}}{|\vec{n}|}|
+$$

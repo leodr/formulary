@@ -8,9 +8,13 @@
     "start": "next start"
   },
   "dependencies": {
+    "@mdx-js/loader": "^1.5.5",
+    "@next/mdx": "^9.2.1",
     "next": "9.2.1",
     "react": "16.12.0",
     "react-dom": "16.12.0",
-    "react-latex": "^1.5.0"
+    "react-latex": "^1.5.0",
+    "rehype-katex": "^2.0.0",
+    "remark-math": "^2.0.0"
   }
 }
