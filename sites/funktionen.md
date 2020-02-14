@@ -19,20 +19,14 @@ $$
 
 ## Ableitung elementarer Funktionen
 
-|  Funktion   |         Ableitung         |
-| :---------: | :-----------------------: |
-|    $x^n$    |        $nx^{n-1}$         |
-|  $sin(x)$   |         $cos(x)$          |
-|  $cos(x)$   |         $-sin(x)$         |
-|  $tan(x)$   |   $\frac{1}{cos^2(x)}$    |
-|  $cot(x)$   |   $-\frac{1}{sin^2(x)}$   |
-| $arcsin(x)$ | $\frac{1}{\sqrt{1-x^2}}$  |
-| $arccos(x)$ | $-\frac{1}{\sqrt{1-x^2}}$ |
-| $arctan(x)$ |     $\frac{1}{1+x^2}$     |
-| $arccot(x)$ |    $-\frac{1}{1+x^2}$     |
-|    $e^x$    |           $e^x$           |
-|   $ln(x)$   |       $\frac{1}{x}$       |
-| $log_a(x)$  | $\frac{1}{ln(a) \cdot x}$ |
+|  Funktion  |         Ableitung         |
+| :--------: | :-----------------------: |
+|   $x^n$    |        $nx^{n-1}$         |
+|  $cos(x)$  |         $-sin(x)$         |
+|  $tan(x)$  |   $\frac{1}{cos^2(x)}$    |
+|  $cot(x)$  |   $-\frac{1}{sin^2(x)}$   |
+|  $ln(x)$   |       $\frac{1}{x}$       |
+| $log_a(x)$ | $\frac{1}{ln(a) \cdot x}$ |
 
 ## Ableitungsregeln
 
@@ -148,3 +142,9 @@ $$
 $$
 
 , wenn $f(x) \geq g(x) \quad \forall \quad x \in [a;b]$
+
+## Lineare Näherung
+
+$$
+  f(x) \approx L(x) = f(x_0) + f'(x_0) \cdot (x-x_0)
+$$

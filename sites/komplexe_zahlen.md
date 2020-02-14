@@ -77,7 +77,9 @@ $$
 $$
 
 $D > 0$: 2 reelle Lösungen
+
 $D = 0$: 1 reelle Lösung (doppelte Nullstelle)
+
 $D < 0$: 2 komplexe Lösungen, zueinander komplex konjugiert
 
 ## Exponentialform

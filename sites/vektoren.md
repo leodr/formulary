@@ -43,7 +43,7 @@ $$
 Linear unabhängig:
 
 $$
- \lambda_1 \vec{a_1} + \lambda_2 \vec{a_2} + ... + \lambda_n \vec{a_n} \textnormal{ nicht nur triviale Lösung}
+ \lambda_1 \vec{a_1} + \lambda_2 \vec{a_2} + ... + \lambda_n \vec{a_n} = \vec{0} \textnormal{ nur triviale Lösung}
 $$
 
 ## Untervektorräume
