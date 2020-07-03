@@ -5,12 +5,12 @@ const withMDX = require("@next/mdx")({
   extension: /\.mdx?$/,
   options: {
     remarkPlugins: [remarkMath],
-    rehypePlugins: [rehypeKatex]
-  }
+    rehypePlugins: [rehypeKatex],
+  },
 });
 module.exports = withMDX({
   pageExtensions: ["js", "jsx", "md", "mdx"],
   devIndicators: {
-    autoPrerender: false
-  }
+    autoPrerender: false,
+  },
 });
