@@ -1,8 +1,8 @@
 <h1 align="center">Welcome to formulaic-collection 👋</h1>
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
-  <img src="https://img.shields.io/badge/npm-%3E%3D5.5.0-blue.svg" />
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   <img src="https://img.shields.io/badge/node-%3E%3D10.4.0-blue.svg" />
+  <img src="https://img.shields.io/badge/npm-%3E%3D5.5.0-blue.svg" />
   <a href="https://github.com/leodr/formulaic-collection#readme" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
@@ -21,29 +21,32 @@
 
 ### 🏠 [Homepage](https://github.com/leodr/formulaic-collection#readme)
 
+### ✨ [Demo](https://formulaic-collection.vercel.app/)
+
 ## Prerequisites
 
--   npm >=5.5.0
--   node >=10.4.0
+- node >=10.4.0
+- npm >=5.5.0
 
 ## Install
 
 ```sh
-yarn
+yarn install
 ```
 
 ## Usage
 
 ```sh
-yarn dev
+yarn run start
 ```
 
 ## Author
 
 👤 **Leo Driesch**
 
--   Twitter: [@leodriesch](https://twitter.com/leodriesch)
--   Github: [@leodr](https://github.com/leodr)
+- Website: https://leodriesch.com/
+- Twitter: [@leodriesch](https://twitter.com/leodriesch)
+- Github: [@leodr](https://github.com/leodr)
 
 ## 🤝 Contributing
 
