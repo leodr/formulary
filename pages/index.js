@@ -1,21 +1,17 @@
-import Head from "next/head";
 import React from "react";
-import Additionstheorem from "../sites/additionstheorem.md";
-import Funktionen from "../sites/funktionen.md";
-import Komplexe from "../sites/komplexe_zahlen.md";
-import Matrizen from "../sites/matrizen.md";
-import Potenzreihen from "../sites/potenzreihen.md";
-import Reihen from "../sites/reihen.md";
-import Taylorreihen from "../sites/taylorreihen.md";
-import Vektoren from "../sites/vektoren.md";
-import Induktion from "../sites/vollstaendige_induktion.md";
+import Additionstheorem from "../topics/additionstheorem.md";
+import Funktionen from "../topics/funktionen.md";
+import Komplexe from "../topics/komplexe_zahlen.md";
+import Matrizen from "../topics/matrizen.md";
+import Potenzreihen from "../topics/potenzreihen.md";
+import Reihen from "../topics/reihen.md";
+import Taylorreihen from "../topics/taylorreihen.md";
+import Vektoren from "../topics/vektoren.md";
+import Induktion from "../topics/vollstaendige_induktion.md";
 
 const Home = () => {
   return (
     <div className="markdown-body">
-      <Head>
-        <meta charSet="utf-8"></meta>
-      </Head>
       <div className="columns">
         <div className="firstcolumn">
           <Induktion />
