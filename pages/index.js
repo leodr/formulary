@@ -1,13 +1,13 @@
 import React from "react";
-import Additionstheorem from "../topics/additionstheorem.md";
-import Funktionen from "../topics/funktionen.md";
-import Komplexe from "../topics/komplexe_zahlen.md";
-import Matrizen from "../topics/matrizen.md";
-import Potenzreihen from "../topics/potenzreihen.md";
-import Reihen from "../topics/reihen.md";
-import Taylorreihen from "../topics/taylorreihen.md";
-import Vektoren from "../topics/vektoren.md";
-import Induktion from "../topics/vollstaendige_induktion.md";
+import Additionstheorem from "topics/additionstheorem.md";
+import Funktionen from "topics/funktionen.md";
+import Komplexe from "topics/komplexe_zahlen.md";
+import Matrizen from "topics/matrizen.md";
+import Potenzreihen from "topics/potenzreihen.md";
+import Reihen from "topics/reihen.md";
+import Taylorreihen from "topics/taylorreihen.md";
+import Vektoren from "topics/vektoren.md";
+import Induktion from "topics/vollstaendige_induktion.md";
 
 const Home = () => {
   return (
