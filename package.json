@@ -1,7 +1,7 @@
 {
   "name": "formulaic-collection",
   "version": "1.0.0",
-  "description": "Collection of formulas written in Markdown and displayed with Next.js and MDX.",
+  "description": "A math formula cheat sheet for one of my math exams made with Next.js, Katex and MDX.",
   "homepage": "https://github.com/leodr/formulaic-collection#readme",
   "bugs": {
     "url": "https://github.com/leodr/formulaic-collection/issues"

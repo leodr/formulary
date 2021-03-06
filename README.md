@@ -1,62 +1,74 @@
-<h1 align="center">Welcome to formulaic-collection 👋</h1>
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
-  <img src="https://img.shields.io/badge/node-%3E%3D10.4.0-blue.svg" />
-  <img src="https://img.shields.io/badge/npm-%3E%3D5.5.0-blue.svg" />
-  <a href="https://github.com/leodr/formulaic-collection#readme" target="_blank">
-    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
-  </a>
-  <a href="https://github.com/leodr/formulaic-collection/graphs/commit-activity" target="_blank">
-    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
-  </a>
-  <a href="https://github.com/leodr/formulaic-collection/blob/master/LICENSE" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/github/license/leodr/formulaic-collection" />
-  </a>
-  <a href="https://twitter.com/leodriesch" target="_blank">
-    <img alt="Twitter: leodriesch" src="https://img.shields.io/twitter/follow/leodriesch.svg?style=social" />
-  </a>
+<h1 align="center">formulaic-collection</h1>
+
+<p align="center">
+    <strong>A math formula cheat sheet for one of my math exams made with Next.js, Katex and MDX.</strong>
 </p>
 
-> Collection of formulas written in Markdown and displayed with Next.js and MDX.
+<p align="center"> 
+    <a href="https://github.com/leodr/formulaic-collection/blob/main/LICENSE">
+        <img alt="MIT License" src="https://img.shields.io/github/license/leodr/formulaic-collection?color=%23A855F7&labelColor=%2327272A&style=for-the-badge">
+    </a>
+    <a href="https://twitter.com/leodriesch">
+        <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/leodriesch?color=%2338BDF8&labelColor=%2327272A&style=for-the-badge">
+    </a>
+</p>
 
-### 🏠 [Homepage](https://github.com/leodr/formulaic-collection#readme)
+<p align="center">
+    <a href="#-development"><b>Development</b></a>
+    <span>  •  </span>
+    <a href="#-contribute"><b>Contribute</b></a>  
+</p>
 
-### ✨ [Demo](https://formulaic-collection.vercel.app/)
+---
 
-## Prerequisites
+This is the printing template of a math formula cheat sheet I used for one of my
+math exams. Oh yeah, we were allowed to bring 5 pages of formulas, of course.
 
-- node >=10.4.0
-- npm >=5.5.0
+The individual topics with the formulas are written out as `.md` files in the
+`topics/` folder. They are then imported as React components, which is made
+possible by the `@next/mdx` plugin.
 
-## Install
+`remark-math` adds support for the Tex math syntax used in the markdown files.
 
-```sh
-yarn install
-```
+![Screenshot of the application](./assets/screenshot.png)
 
-## Usage
+## ❯ Development
 
-```sh
-yarn run start
-```
+1. **Requirements**
 
-## Author
+   You need [Node.js](https://nodejs.org/en/) and
+   [Yarn](https://classic.yarnpkg.com/en/docs/install) installed on your system.
 
-👤 **Leo Driesch**
+2. **Install packages**
 
-- Website: https://leodriesch.com/
-- Twitter: [@leodriesch](https://twitter.com/leodriesch)
-- Github: [@leodr](https://github.com/leodr)
+   Run `yarn` to install all neccesary packages.
 
-## 🤝 Contributing
+3. **Run the application**
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/leodr/formulaic-collection/issues).
+   Start the Next.js dev server by running `yarn dev`.
 
-## Show your support
+<br>
 
-Give a ⭐️ if this project helped you!
+## ❯ Contribute
 
-## 📝 License
+If you think you have any ideas that could benefit the project, feel free to
+create a pull request!
 
-Copyright © 2020 [Leo Driesch](https://github.com/leodr).<br />
-This project is [MIT](https://github.com/leodr/formulaic-collection/blob/master/LICENSE) licensed.
+<br>
+
+---
+
+<p align="center">
+    <sub>
+        Project by Leo Driesch, released under <a href="https://github.com/leodr/flutter_tasks/blob/main/LICENSE">MIT license</a>.
+    </sub>
+</p>
+<p align="center">
+    <a href="https://twitter.com/leodriesch">
+        <img alt="Leo Driesch on Twitter" src="./assets/twitter.svg">
+    </a>
+    &nbsp;&nbsp;
+    <a href="https://github.com/leodr">
+        <img alt="Leo Driesch on GitHub" src="./assets/github.svg">
+    </a>
+</p>
