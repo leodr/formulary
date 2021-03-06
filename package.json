@@ -18,7 +18,8 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
-    "start": "next start"
+    "start": "next start",
+    "format": "prettier . --write --ignore-path .gitignore"
   },
   "dependencies": {
     "@mdx-js/loader": "^1.6.22",
