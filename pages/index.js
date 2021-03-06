@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <div className="markdown-body">
       <Head>
-        <meta charset="utf-8"></meta>
+        <meta charSet="utf-8"></meta>
       </Head>
       <div className="columns">
         <div className="firstcolumn">
