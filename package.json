@@ -19,7 +19,7 @@
     "build": "next build",
     "dev": "next dev",
     "format": "prettier . --write --ignore-path .gitignore",
-    "lint": "eslint . --ignore-path .gitignore",
+    "lint": "next lint",
     "start": "next start"
   },
   "dependencies": {
@@ -35,16 +35,7 @@
     "remark-math": "5.1.1"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.48.2",
-    "@typescript-eslint/parser": "^5.48.2",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^8.32.0",
-    "eslint-config-react-app": "^7.0.1",
-    "eslint-plugin-flowtype": "^8.0.3",
-    "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-jsx-a11y": "^6.7.1",
-    "eslint-plugin-react": "^7.32.1",
-    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-config-next": "13.1.2",
     "prettier": "^2.8.3",
     "prettier-plugin-packagejson": "^2.4.0"
   },
