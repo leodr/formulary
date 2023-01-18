@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://formulaic-collection.vercel.app">
+  <a href="https://formulary.leodriesch.com/">
     <img src="./readme-assets/logo.png" height="200" />
   </a>
 </div>
@@ -12,11 +12,12 @@
 
 <br><br>
 
-This is the printer template of a math formula cheat sheet I (legally) used for one of my linear algebra exams.
+This is the printer template of a math formula cheat sheet I (legally) used for
+one of my linear algebra exams.
 
 The individual topics of formulas are written out as `.md` files in the
-`topics/` folder. They are imported as React components, which is made
-possible by the `@next/mdx` plugin.
+`src/topics/` folder. They are imported as React components, which is made
+possible by the `@mdx-js/rollup` plugin.
 
 `remark-math` adds support for the LaTeX math syntax used in the markdown files.
 
@@ -30,13 +31,12 @@ possible by the `@next/mdx` plugin.
 
 1. **Requirements**
 
-   You need [Node.js](https://nodejs.org/en/) and
-   [Yarn](https://classic.yarnpkg.com/en/docs/install) installed on your system.
+   You need [Node.js](https://nodejs.org/en/) installed on your system.
 
 2. **Install packages**
 
-   Run `yarn` to install all neccesary packages.
+   Run `npm install` to install all neccesary packages.
 
 3. **Run the application**
 
-   Start the Next.js dev server by running `yarn dev`.
+   Start the dev server by running `npm run dev`.
