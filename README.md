@@ -12,11 +12,12 @@
 
 <br><br>
 
-This is the printer template of a math formula cheat sheet I (legally) used for one of my linear algebra exams.
+This is the printer template of a math formula cheat sheet I (legally) used for
+one of my linear algebra exams.
 
 The individual topics of formulas are written out as `.md` files in the
-`topics/` folder. They are imported as React components, which is made
-possible by the `@next/mdx` plugin.
+`topics/` folder. They are imported as React components, which is made possible
+by the `@next/mdx` plugin.
 
 `remark-math` adds support for the LaTeX math syntax used in the markdown files.
 
