@@ -58,7 +58,8 @@ M & N nichtleere Menge
 
 ## Lineare Abbildungen
 
-$V$, $W$ sind reelle Vektorräume, $F: V \leftrightarrow W$ heißt lineare Abbildung, wenn
+$V$, $W$ sind reelle Vektorräume, $F: V \leftrightarrow W$ heißt lineare
+Abbildung, wenn
 
 - $F(\vec{a} + \vec{b}) = F(\vec{a}) + F(\vec{b})$
 - $F(R \cdot \vec{a}) = R \cdot F(\vec{a})$
@@ -87,7 +88,8 @@ $$
 
 ## Bild einer Matrix
 
-Lineare Hülle der Spaltenvektoren / Menge der linear unabhängigen Spaltenvektoren
+Lineare Hülle der Spaltenvektoren / Menge der linear unabhängigen
+Spaltenvektoren
 
 ## Kern einer Matrix
 
@@ -99,8 +101,8 @@ LGS aufstellen für $A \vec{x} = \vec{0}$
 ## Rang einer Matrix
 
 1. Matrix als Rechenschema aufschreiben
-2. Zeilenstufennormalform durch Gauß-Algorithmus
-   Anzahl der Zeilen $\neq \vec{0} \hat{=}$$rang(A)$
+2. Zeilenstufennormalform durch Gauß-Algorithmus Anzahl der Zeilen
+   $\neq \vec{0} \hat{=} rang(A)$
 
 ### Eigenschaften
 
@@ -139,7 +141,8 @@ Matrix ist invertierbar, wenn
 ## Lösung von LGS mithilfe Koeffizientenmatrix
 
 - $Kern(A) = \vec{0} \Rightarrow (A \mid \vec{b})$ hat eindeutige Lösung
-- Ist $A$ invertierbar, ist $A \vec{x} = \vec{b}$ eindeutig lösbar $\Rightarrow \vec{x} = A^{-1} \cdot \vec{b}$
+- Ist $A$ invertierbar, ist $A \vec{x} = \vec{b}$ eindeutig lösbar
+  $\Rightarrow \vec{x} = A^{-1} \cdot \vec{b}$
 
 ## Determinante
 
