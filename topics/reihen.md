@@ -52,8 +52,7 @@ $$
  \sum_{n=1}^{\infty} \: (-1)^{n+1} a_n = a_1 - a_2 + a_3 - a_4 \pm ...
 $$
 
-Alternierende Reihe ist konvergent, falls $a_1 > a_2 > a_3 > ... > 0$ und
-$lim_{n \to \infty} a_n = 0$
+Alternierende Reihe ist konvergent, falls $a_1 > a_2 > a_3 > ... > 0$ und $lim_{n \to \infty} a_n = 0$
 
 ## Quotientenkriterium
 

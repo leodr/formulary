@@ -1,7 +1,7 @@
 # Taylorreihen
 
-Funktionen können als Potenzreihen ausgedrückt werden Taylor-Reihe der Funktion
-$f$ mit Entwicklungsstelle $x_0$:
+Funktionen können als Potenzreihen ausgedrückt werden
+Taylor-Reihe der Funktion $f$ mit Entwicklungsstelle $x_0$:
 
 $$
  T(x) = \sum_{n=0}^{\infty} \: \frac{1}{n!} \: f^{(n)}(x_0)(x-x_0)^n
